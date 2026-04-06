@@ -129,3 +129,29 @@ h1 {
   border-radius: 25px 0 0 25px;
   transition: width 1s ease-in-out;
 }
+.timeline {
+  border-left: 3px solid #0077ff;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.timeline-item {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline-item h3 {
+  margin: 0;
+  color: #0077ff;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  background: #0077ff;
+  border-radius: 50%;
+}
