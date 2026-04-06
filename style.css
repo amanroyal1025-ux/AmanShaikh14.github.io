@@ -1,66 +1,59 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    background: linear-gradient(135deg, #1e1e2f, #3a0ca3);
+    font-family: Arial;
+    background: linear-gradient(135deg, #0f2027, #2c5364);
     color: white;
 }
 
 /* Navbar */
 nav {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0,0,0,0.7);
     padding: 15px;
     text-align: center;
 }
 
 nav a {
     color: white;
-    margin: 15px;
+    margin: 10px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 18px;
 }
 
 nav a:hover {
-    color: #00f5d4;
+    color: cyan;
 }
 
-/* Card Layout */
+/* Card */
 .card {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 25px;
-    margin: 50px auto;
-    width: 70%;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    backdrop-filter: blur(10px);
+    width: 75%;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
 }
 
 /* Images */
-.project-img {
-    width: 100%;
-    max-width: 400px;
+img {
+    width: 250px;
     border-radius: 10px;
-    margin-top: 10px;
 }
 
-/* Buttons */
+/* Button */
 .btn {
-    display: inline-block;
-    padding: 10px 15px;
-    margin-top: 10px;
-    background: #00f5d4;
+    background: cyan;
+    padding: 10px;
     color: black;
     text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
+    border-radius: 5px;
 }
 
-.btn:hover {
-    background: #00c9a7;
-}
-
-/* Contact */
-.contact a {
-    color: #00f5d4;
-    text-decoration: none;
+/* Dark Mode Toggle */
+.toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: black;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
 }
