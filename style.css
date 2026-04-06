@@ -87,3 +87,22 @@ img.project-img:hover {
 h1 {
     color: #0077ff;
 }
+/* Dark Mode Styles */
+.dark-mode {
+  background: #121212 !important;
+  color: #eee !important;
+}
+
+.dark-mode nav {
+  background: #222 !important;
+}
+
+.dark-mode .card {
+  background: #1e1e1e !important;
+  box-shadow: none !important;
+}
+
+.dark-mode .btn {
+  background: #00bcd4 !important;
+  color: black !important;
+}
