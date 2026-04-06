@@ -66,7 +66,23 @@ img {
 .gallery img {
     width: 180px;
 }
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s forwards;
+}
 
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Zoom effect on hover for images */
+img.project-img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
 /* Heading */
 h1 {
     color: #0077ff;
