@@ -155,3 +155,32 @@ h1 {
   background: #0077ff;
   border-radius: 50%;
 }
+#projects {
+    padding: 30px;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.more-projects {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.project-box {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    transition: 0.3s;
+}
+
+.project-box:hover {
+    transform: scale(1.05);
+    background: #f0f8ff;
+}
